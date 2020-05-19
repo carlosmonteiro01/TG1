@@ -34,9 +34,7 @@ Hoje o operador líder da unidade de filtro da Forming Tubing é o responsável 
 O espaço para produção é de 70m² e conta com 4 aparelhos de ar-condicionado com função de umidificador, 2 deles localizados no centro e um em cada ponta.
 O operador de hora em hora numa planilha(figura1), adiciona a umidade do local e se ficou abaixo de 40% liga os aparelhos de ar-condicionado e se ficou acima de 80% desliga os aparelhos, conseguindo assim manter a média para obter o máximo de eficiência do filtro secador.
  
-1.1. Problema apresentado 
-            Controle manual da umidade relativa do ar no ambiente de produção de filtro
-secador da fábrica Forming Tubing do Brasil. 
+1.1. Objetivo do trabalho é a criação de um sistema automatizado de controle de umidade relativa do ar no ambiente de produção de filtro secador da fábrica Forming Tubing do Brasil. 
 
 1.2. Conteúdo do Trabalho
 O presente trabalho está estruturado em seis Capítulos, cujo conteúdo é sucintamente apresentado a seguir:
