@@ -43,3 +43,20 @@ O Capítulo 3 apresenta o desenvolvimento da solução
 No Capítulo 4 são apresentados os resultados
 O Capítulo 5 apresenta as considerações finais  deste trabalho a partir da análise dos resultados obtidos
 
+2.	FUNDAMENTAÇÃO TÉCNICA
+Pensando numa maior confiabilidade para obtenção dos dados de umidade relativa do ar do setor de filtro da Forming Tubing, a solução seria a criação de um sistema automatizado via Arduino (Itália, 2005) com sensores de umidade conhecido como DHT11 e o sensor de infravermelho E18-D80NK.
+Tratando um pouco da parte física, a placa Arduino utilizada para o projeto será a de modelo Uno Rev3R3 Atmega328 Smd (conforme figura 2).
+ 
+Ela será fixada próximo ao centro da sala que mede aproximadamente 168 m², nela via as portas seriais será acoplado 2 sensores, o primeiro é o de umidade conhecido como DHT11 (conforme figura 3), e o segundo é o sensor de infravermelho E18-D80NK 
+(conforme figura 4).
+
+
+Para programar e dar vida ao projeto utilizarei uma IDE própria da Arduino, (IDE download), conseguindo assim, dar os primeiros passos e desenvolver a aplicação, 
+com ele é possível instalar bibliotecas adicionais e realizar a compilação e gravação dos programas na placa.
+O sensor de umidade capta a umidade do ar na sala, e dentro dos parâmetros se necessário utilizando o sensor de infravermelho acoplado aos controles remotos ativa os 4 aparelhos de ar condicionado, a medição será feita com a média dos últimos 5 minutos, os seja, atingindo os parâmetros necessários ele regula os aparelhos para manter a máxima eficiência. 
+ Com isso ganhamos em eficiência, pois como podemos ver na figura1 em algumas horas do dia foi constatado que a umidade ficou abaixo do padrão definido podendo assim danificar a produção.
+Com isso também ganhamos o tempo do operador, que não precisará ficar intervindo de hora em hora para análise e intervenção manual nos aparelhos. 
+Ganhamos também em qualidade pois teremos um controle maior sobre a umidade no local, trazendo assim tranquilidade aos operadores.
+Os clientes com toda certeza ficaram ainda mais satisfeitos com os filtros secadores produzidos pela Forming.
+
+
