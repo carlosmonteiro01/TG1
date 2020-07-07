@@ -59,4 +59,9 @@ Com isso também ganhamos o tempo do operador, que não precisará ficar intervi
 Ganhamos também em qualidade pois teremos um controle maior sobre a umidade no local, trazendo assim tranquilidade aos operadores.
 Os clientes com toda certeza ficaram ainda mais satisfeitos com os filtros secadores produzidos pela Forming.
 
+3.	DESENVOLVIMENTO
+Para desenvolvimento do software utilizei o programa para codificar no Arduino, e abaixo está uma demonstração de como ele ficaria.
+temos o DHT11 que capta a umidade relativa do ar conectado à placa de Arduino, após a leitura dele, jogaremos o resultado em uma variável umi_now = leitura, com isso conseguiremos criar uma condicional que se a umidade estiver abaixo de 40 ele aciona o controle através do E18-D80NK que capta o sinal do infravermelho e aciona o controle para ligar o ar.
+Essa leitura ficara num loop time de 1 em 1 hora, e com isso teremos a saída em uma tabela para o controle futuro.
+
 
